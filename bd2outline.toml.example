@@ -1,0 +1,13 @@
+[llm]
+# Any OpenAI-compatible endpoint. Ollama's local server is one; point this at
+# http://localhost:<port>/v1 with no key needed.
+base_url = "http://localhost:11434/v1"
+model = "llama3.2"
+timeout = 120
+# For hosted endpoints that need a key, name an environment variable here -
+# the key itself never goes in this file or in git.
+# api_key_env = "MY_ENDPOINT_KEY"
+
+[output]
+# "markdown" or "csv"
+format = "markdown"
