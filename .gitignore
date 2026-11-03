@@ -1,8 +1,13 @@
-__pycache__/
-*.pyc
-.pytest_cache/
 *.egg-info/
+*.pyc
+.env
+.env.*
+.pytest_cache/
+.venv/
+__pycache__/
+bd2outline.toml
 build/
 dist/
-bd2outline.toml
+dist/*.tmp
+node_modules/
 tasks.csv
